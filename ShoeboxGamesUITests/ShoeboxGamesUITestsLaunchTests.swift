@@ -1,10 +1,3 @@
-//
-//  ShoeboxGamesUITestsLaunchTests.swift
-//  ShoeboxGamesUITests
-//
-//  Created by Marcus Park on 6/21/23.
-//
-
 import XCTest
 
 final class ShoeboxGamesUITestsLaunchTests: XCTestCase {
