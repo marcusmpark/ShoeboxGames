@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF8586E12A436C85000D8307 /* ShoeboxGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8586E02A436C85000D8307 /* ShoeboxGamesApp.swift */; };
+		BF8586E32A436C85000D8307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8586E22A436C85000D8307 /* ContentView.swift */; };
+		BF8586E52A436C87000D8307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8586E42A436C87000D8307 /* Assets.xcassets */; };
+		BF8586E82A436C87000D8307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8586E72A436C87000D8307 /* Preview Assets.xcassets */; };
+		BF8586EA2A436C87000D8307 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8586E92A436C87000D8307 /* Persistence.swift */; };
+		BF8586ED2A436C87000D8307 /* ShoeboxGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF8586EB2A436C87000D8307 /* ShoeboxGames.xcdatamodeld */; };
+		BF8586F72A436C88000D8307 /* ShoeboxGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8586F62A436C88000D8307 /* ShoeboxGamesTests.swift */; };
+		BF8587012A436C88000D8307 /* ShoeboxGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8587002A436C88000D8307 /* ShoeboxGamesUITests.swift */; };
+		BF8587032A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8587022A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8586F32A436C88000D8307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8586D52A436C85000D8307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8586DC2A436C85000D8307;
+			remoteInfo = ShoeboxGames;
+		};
+		BF8586FD2A436C88000D8307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8586D52A436C85000D8307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8586DC2A436C85000D8307;
+			remoteInfo = ShoeboxGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF8586DD2A436C85000D8307 /* ShoeboxGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeboxGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8586E02A436C85000D8307 /* ShoeboxGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeboxGamesApp.swift; sourceTree = "<group>"; };
+		BF8586E22A436C85000D8307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF8586E42A436C87000D8307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8586E72A436C87000D8307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF8586E92A436C87000D8307 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF8586EC2A436C87000D8307 /* ShoeboxGames.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoeboxGames.xcdatamodel; sourceTree = "<group>"; };
+		BF8586F22A436C88000D8307 /* ShoeboxGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeboxGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8586F62A436C88000D8307 /* ShoeboxGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeboxGamesTests.swift; sourceTree = "<group>"; };
+		BF8586FC2A436C88000D8307 /* ShoeboxGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeboxGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8587002A436C88000D8307 /* ShoeboxGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeboxGamesUITests.swift; sourceTree = "<group>"; };
+		BF8587022A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeboxGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8586DA2A436C85000D8307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586EF2A436C88000D8307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586F92A436C88000D8307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF8586D42A436C85000D8307 = {
+			isa = PBXGroup;
+			children = (
+				BF8586DF2A436C85000D8307 /* ShoeboxGames */,
+				BF8586F52A436C88000D8307 /* ShoeboxGamesTests */,
+				BF8586FF2A436C88000D8307 /* ShoeboxGamesUITests */,
+				BF8586DE2A436C85000D8307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8586DE2A436C85000D8307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8586DD2A436C85000D8307 /* ShoeboxGames.app */,
+				BF8586F22A436C88000D8307 /* ShoeboxGamesTests.xctest */,
+				BF8586FC2A436C88000D8307 /* ShoeboxGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8586DF2A436C85000D8307 /* ShoeboxGames */ = {
+			isa = PBXGroup;
+			children = (
+				BF8586E02A436C85000D8307 /* ShoeboxGamesApp.swift */,
+				BF8586E22A436C85000D8307 /* ContentView.swift */,
+				BF8586E42A436C87000D8307 /* Assets.xcassets */,
+				BF8586E92A436C87000D8307 /* Persistence.swift */,
+				BF8586EB2A436C87000D8307 /* ShoeboxGames.xcdatamodeld */,
+				BF8586E62A436C87000D8307 /* Preview Content */,
+			);
+			path = ShoeboxGames;
+			sourceTree = "<group>";
+		};
+		BF8586E62A436C87000D8307 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF8586E72A436C87000D8307 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF8586F52A436C88000D8307 /* ShoeboxGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8586F62A436C88000D8307 /* ShoeboxGamesTests.swift */,
+			);
+			path = ShoeboxGamesTests;
+			sourceTree = "<group>";
+		};
+		BF8586FF2A436C88000D8307 /* ShoeboxGamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8587002A436C88000D8307 /* ShoeboxGamesUITests.swift */,
+				BF8587022A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift */,
+			);
+			path = ShoeboxGamesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8586DC2A436C85000D8307 /* ShoeboxGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8587062A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGames" */;
+			buildPhases = (
+				BF8586D92A436C85000D8307 /* Sources */,
+				BF8586DA2A436C85000D8307 /* Frameworks */,
+				BF8586DB2A436C85000D8307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoeboxGames;
+			productName = ShoeboxGames;
+			productReference = BF8586DD2A436C85000D8307 /* ShoeboxGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8586F12A436C88000D8307 /* ShoeboxGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8587092A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGamesTests" */;
+			buildPhases = (
+				BF8586EE2A436C88000D8307 /* Sources */,
+				BF8586EF2A436C88000D8307 /* Frameworks */,
+				BF8586F02A436C88000D8307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8586F42A436C88000D8307 /* PBXTargetDependency */,
+			);
+			name = ShoeboxGamesTests;
+			productName = ShoeboxGamesTests;
+			productReference = BF8586F22A436C88000D8307 /* ShoeboxGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8586FB2A436C88000D8307 /* ShoeboxGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85870C2A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGamesUITests" */;
+			buildPhases = (
+				BF8586F82A436C88000D8307 /* Sources */,
+				BF8586F92A436C88000D8307 /* Frameworks */,
+				BF8586FA2A436C88000D8307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8586FE2A436C88000D8307 /* PBXTargetDependency */,
+			);
+			name = ShoeboxGamesUITests;
+			productName = ShoeboxGamesUITests;
+			productReference = BF8586FC2A436C88000D8307 /* ShoeboxGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8586D52A436C85000D8307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF8586DC2A436C85000D8307 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BF8586F12A436C88000D8307 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF8586DC2A436C85000D8307;
+					};
+					BF8586FB2A436C88000D8307 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF8586DC2A436C85000D8307;
+					};
+				};
+			};
+			buildConfigurationList = BF8586D82A436C85000D8307 /* Build configuration list for PBXProject "ShoeboxGames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8586D42A436C85000D8307;
+			productRefGroup = BF8586DE2A436C85000D8307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8586DC2A436C85000D8307 /* ShoeboxGames */,
+				BF8586F12A436C88000D8307 /* ShoeboxGamesTests */,
+				BF8586FB2A436C88000D8307 /* ShoeboxGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8586DB2A436C85000D8307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8586E82A436C87000D8307 /* Preview Assets.xcassets in Resources */,
+				BF8586E52A436C87000D8307 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586F02A436C88000D8307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586FA2A436C88000D8307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8586D92A436C85000D8307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8586EA2A436C87000D8307 /* Persistence.swift in Sources */,
+				BF8586E32A436C85000D8307 /* ContentView.swift in Sources */,
+				BF8586ED2A436C87000D8307 /* ShoeboxGames.xcdatamodeld in Sources */,
+				BF8586E12A436C85000D8307 /* ShoeboxGamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586EE2A436C88000D8307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8586F72A436C88000D8307 /* ShoeboxGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8586F82A436C88000D8307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8587012A436C88000D8307 /* ShoeboxGamesUITests.swift in Sources */,
+				BF8587032A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8586F42A436C88000D8307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8586DC2A436C85000D8307 /* ShoeboxGames */;
+			targetProxy = BF8586F32A436C88000D8307 /* PBXContainerItemProxy */;
+		};
+		BF8586FE2A436C88000D8307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8586DC2A436C85000D8307 /* ShoeboxGames */;
+			targetProxy = BF8586FD2A436C88000D8307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF8587042A436C88000D8307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF8587052A436C88000D8307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8587072A436C88000D8307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoeboxGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8587082A436C88000D8307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoeboxGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF85870A2A436C88000D8307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoeboxGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoeboxGames";
+			};
+			name = Debug;
+		};
+		BF85870B2A436C88000D8307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoeboxGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoeboxGames";
+			};
+			name = Release;
+		};
+		BF85870D2A436C88000D8307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoeboxGames;
+			};
+			name = Debug;
+		};
+		BF85870E2A436C88000D8307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32FGGDUX32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marcusmpark.ShoeboxGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoeboxGames;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8586D82A436C85000D8307 /* Build configuration list for PBXProject "ShoeboxGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8587042A436C88000D8307 /* Debug */,
+				BF8587052A436C88000D8307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8587062A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8587072A436C88000D8307 /* Debug */,
+				BF8587082A436C88000D8307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8587092A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85870A2A436C88000D8307 /* Debug */,
+				BF85870B2A436C88000D8307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85870C2A436C88000D8307 /* Build configuration list for PBXNativeTarget "ShoeboxGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85870D2A436C88000D8307 /* Debug */,
+				BF85870E2A436C88000D8307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF8586EB2A436C87000D8307 /* ShoeboxGames.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF8586EC2A436C87000D8307 /* ShoeboxGames.xcdatamodel */,
+			);
+			currentVersion = BF8586EC2A436C87000D8307 /* ShoeboxGames.xcdatamodel */;
+			path = ShoeboxGames.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF8586D52A436C85000D8307 /* Project object */;
+}
