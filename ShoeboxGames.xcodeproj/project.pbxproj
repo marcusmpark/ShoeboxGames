@@ -106,9 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				BF8586E02A436C85000D8307 /* ShoeboxGamesApp.swift */,
-				BF8586E22A436C85000D8307 /* ContentView.swift */,
-				BF8586E42A436C87000D8307 /* Assets.xcassets */,
 				BF8586E92A436C87000D8307 /* Persistence.swift */,
+				BF8587172A44F473000D8307 /* Views */,
+				BF8586E42A436C87000D8307 /* Assets.xcassets */,
 				BF8586EB2A436C87000D8307 /* ShoeboxGames.xcdatamodeld */,
 				BF85870F2A4376CE000D8307 /* GoogleService-Info.plist */,
 				BF8586E62A436C87000D8307 /* Preview Content */,
@@ -146,6 +146,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8587172A44F473000D8307 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF8586E22A436C85000D8307 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
