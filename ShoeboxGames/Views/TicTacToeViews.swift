@@ -1,20 +1,48 @@
 import SwiftUI
 
-enum TicTacToeViews {
+struct TicTacToeViews {
+    struct ContentView: View {
+        var body: some View {
+            VStack {
+                TicTacToeViews.TopView()
+                ZStack {
+                    TicTacToeViews.BoardView()
+                    TicTacToeViews.PieceView(playerID: .two)
+                }
+                TicTacToeViews.BottomView()
+            }
+        }
+    }
+    
+    struct ViewPreviews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
+}
+
+// MARK: - Top Views
+extension TicTacToeViews {
     fileprivate struct TopView: View {
         var body: some View {
             Rectangle()
                 .fill(.purple)
         }
     }
-    
+}
+
+// MARK: - Bottom Views
+extension TicTacToeViews {
     fileprivate struct BottomView: View {
         var body: some View {
             Rectangle()
                 .fill(.cyan)
         }
     }
-    
+}
+
+// MARK: - Board Views
+extension TicTacToeViews {
     fileprivate struct BoardView: View {
         static let spaceSize: CGFloat = 115
         static let lineWidth: CGFloat = 6
@@ -59,20 +87,26 @@ enum TicTacToeViews {
             }.padding(.all)
         }
     }
-    
-    struct ContentView: View {
+}
+
+// MARK: - Piece Views
+extension TicTacToeViews {
+    fileprivate struct PieceView: View {
+        @State var playerID: PlayerID
+        static let playerMoveFont: Font = .system(size: 90, weight: .light)
+
         var body: some View {
-            VStack {
-                TopView()
-                BoardView()
-                BottomView()
+            switch playerID {
+            case .one:
+                Image(systemName: "l.circle")
+                    .font(Self.playerMoveFont)
+                    .foregroundColor(.blue)
+            case .two:
+                Image(systemName: "r.circle")
+                    .font(Self.playerMoveFont)
+                    .foregroundColor(.red)
+            // TODO: [TAS-36] Error handling.
             }
-        }
-    }
-    
-    struct ViewPreviews: PreviewProvider {
-        static var previews: some View {
-            TicTacToeViews.ContentView()
         }
     }
 }

@@ -20,6 +20,7 @@
 		BF8587132A43772A000D8307 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BF8587122A43772A000D8307 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		BF8587162A4378B8000D8307 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF8587152A4378B8000D8307 /* FirebaseAnalyticsSwift */; };
 		BF96635F2A44F73F00D9FADC /* TicTacToeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96635E2A44F73F00D9FADC /* TicTacToeViews.swift */; };
+		BF9663622A450B7F00D9FADC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9663612A450B7F00D9FADC /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BF8587022A436C88000D8307 /* ShoeboxGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeboxGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF85870F2A4376CE000D8307 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF96635E2A44F73F00D9FADC /* TicTacToeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViews.swift; sourceTree = "<group>"; };
+		BF9663612A450B7F00D9FADC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				BF8586E02A436C85000D8307 /* ShoeboxGamesApp.swift */,
 				BF8586E92A436C87000D8307 /* Persistence.swift */,
+				BF9663602A450B7100D9FADC /* Models */,
 				BF8587172A44F473000D8307 /* Views */,
 				BF8586E42A436C87000D8307 /* Assets.xcassets */,
 				BF8586EB2A436C87000D8307 /* ShoeboxGames.xcdatamodeld */,
@@ -157,6 +160,14 @@
 				BF96635E2A44F73F00D9FADC /* TicTacToeViews.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BF9663602A450B7100D9FADC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF9663612A450B7F00D9FADC /* Player.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 				BF8586E32A436C85000D8307 /* ContentView.swift in Sources */,
 				BF96635F2A44F73F00D9FADC /* TicTacToeViews.swift in Sources */,
 				BF8586ED2A436C87000D8307 /* ShoeboxGames.xcdatamodeld in Sources */,
+				BF9663622A450B7F00D9FADC /* Player.swift in Sources */,
 				BF8586E12A436C85000D8307 /* ShoeboxGamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
